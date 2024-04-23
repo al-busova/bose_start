@@ -1,0 +1,39 @@
+.hero {
+  padding: 32px 0 52px;
+}
+.hero__container {
+
+}
+.hero__left-side {
+
+}
+.hero__text {
+  font-size: 14px;
+  line-height: 1.25;
+}
+.hero__text:first-child {
+  margin-bottom: 16px;
+}
+
+.hero__title {
+  font-weight: 400;
+  font-size: 34px;
+  line-height: 1;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: $add-text-color;
+  margin: 32px 0;
+}
+
+.hero__btn {
+  padding: 19px 0;
+  margin-bottom: 32px;
+  border: none;
+  background-color: $accent;
+  font-weight: 400;
+  font-size: 16px;
+  letter-spacing: 0.02em;
+  text-transform: uppercase;
+  color: rgba(255, 255, 255, 0.9);
+  width: 100%;
+}

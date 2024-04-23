@@ -1,0 +1,25 @@
+.header {
+  padding-top: 30px;
+}
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.logo {
+  fill: $add-text-color;
+}
+.header__btn {
+  background-color: transparent;
+  border: none;
+  transition: transform 250ms ease-in-out;
+  &:hover,
+  &:focus {
+    transform: scale(1.2);
+    cursor: pointer;
+  }
+}
+
+.header__icon{
+  fill: $main-text-color;
+}
